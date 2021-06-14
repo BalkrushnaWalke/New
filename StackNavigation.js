@@ -9,7 +9,7 @@ import Login from './StackScreens/Provider/Login.js'
 import Forgot from './StackScreens/Provider/Forgot.js'
 import Reset from './StackScreens/Provider/Reset.js'
 import Register from './StackScreens/Provider/Register.js'
-// import Verify from './StackScreens/Provider/Verify.js'
+import Verify from './StackScreens/Provider/Verify.js'
 // import Home from './StackScreens/Provider/Home.js'
 
 
@@ -36,6 +36,7 @@ export default function StackNavigation( { navigation }) {
       <Stack.Screen  name='Register' component={Register}/>
       <Stack.Screen  name='Reset' component={Reset}/>
       <Stack.Screen  name='Forgot' component={Forgot}/>
+      <Stack.Screen  name='Verify' component={Verify}/>
 
 
       </Stack.Navigator>
